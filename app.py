@@ -23,8 +23,9 @@ opcion = st.slider(
 # Mostrar imagen según slider
 st.image(imagenes[opcion], use_container_width=True)
 if opcion == 1:
- st.info(" **1990 – Modelos Estructurales** | Se basan en la teoría económica (ej. modelos de equilibrio general estocástico, modelos IS-LM de economía abierta) para relacionar el tipo de cambio con fundamentales macroeconómicos (tasas de interés, balanza de pagos, términos de intercambio, oferta y demanda monetaria).")
- st.info("**Implementación Clave:** | El BCRP ha desarrollado y actualizado modelos macroeconómicos de proyección, como el Modelo de Proyección Trimestral (MPT), que incluyen la determinación del tipo de cambio.")
+ st.info(" **1990 – Modelos Estructurales**")
+ st.info("**Descripción:** Se basan en la teoría económica (ej. modelos de equilibrio general estocástico, modelos IS-LM de economía abierta) para relacionar el tipo de cambio con fundamentales macroeconómicos (tasas de interés, balanza de pagos, términos de intercambio, oferta y demanda monetaria).")
+ st.info("**Implementación Clave:** El BCRP ha desarrollado y actualizado modelos macroeconómicos de proyección, como el Modelo de Proyección Trimestral (MPT), que incluyen la determinación del tipo de cambio.")
 if opcion == 2:
  st.info(" **1956 – Nace el campo de la IA en Dartmouth** | John McCarthy acuña el término *Inteligencia Artificial*.")
 if opcion == 3:
