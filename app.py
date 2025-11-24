@@ -27,10 +27,16 @@ if opcion == 1:
  st.info("**Descripción:** Se basan en la teoría económica (ej. modelos de equilibrio general estocástico, modelos IS-LM de economía abierta) para relacionar el tipo de cambio con fundamentales macroeconómicos (tasas de interés, balanza de pagos, términos de intercambio, oferta y demanda monetaria).")
  st.info("**Implementación Clave:** El BCRP ha desarrollado y actualizado modelos macroeconómicos de proyección, como el Modelo de Proyección Trimestral (MPT), que incluyen la determinación del tipo de cambio.")
 if opcion == 2:
- st.info(" **1956 – Nace el campo de la IA en Dartmouth** | John McCarthy acuña el término *Inteligencia Artificial*.")
+ st.info(" **(Desde los '90 - 2000) Modelos Econométricos de Series de Tiempo**")
+ st.info("**Descripción:** Se enfocan en el patrón estadístico de la propia serie histórica del tipo de cambio, ignorando (en su forma simple) los fundamentos económicos.")
+ st.info("**Implementación Clave:** Han sido ampliamente utilizados en la investigación académica (universidades) y como referencia base para la predicción en el BCRP.")
 if opcion == 3:
- st.info(" **1997 – Deep Blue vence a Garry Kasparov** | Primer triunfo de una máquina sobre un campeón mundial de ajedrez.")
+ st.info(" **(Desde los 2000 - 2010) – Modelos de Aprendizaje Automático/Redes Neuronales**")
+ st.info("**Descripción:** Algoritmos de Machine Learning que buscan patrones complejos y no lineales en los datos, a menudo superando las limitaciones de supuestos de los modelos tradicionales.")
+ st.info("**Implementación Clave:** Principalmente en la investigación del BCRP y en trabajos de tesis universitarias.")
 if opcion == 4:
- st.info(" **2012 – Revolución del Deep Learning (AlexNet)** | Una red neuronal profunda supera ampliamente otros métodos en reconocimiento de imágenes.")
+ st.info(" **(Desde 2010 a la fecha) – Híbridos / Ensamble**")
+ st.info("**Descripción:** Los modelos que combinan la estructura lineal (como ARIMA para la tendencia) con la no linealidad (como Redes Neuronales para los residuos) o aquellos que combinan predicciones de múltiples modelos (modelos de Ensamble o Ensemble forecasting) son los que han mostrado la mayor robustez y precisión en estudios recientes para series de tiempo complejas como el tipo de cambio.")
 if opcion == 5:
- st.info(" **2022 – Avances en modelos generativos** | Llegan tecnologías como ChatGPT, Gemini, Agentes y más.")
+ st.info(" **(Desde 2010 a la fecha) – Modelos de Aprendizaje Profundo (Deep Learning)**")
+ st.info("**Descripción:** Específicamente, las Redes Neuronales Recurrentes (RNN) o LSTM (Long Short-Term Memory) han ganado tracción. Estos modelos son excelentes para manejar secuencias de datos (series de tiempo) y capturar dependencias a largo plazo, lo que los hace prometedores para la predicción financiera.")
