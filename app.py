@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
-st.title("Modelo de Predicción de tipo de cambio PEN a USD")
+st.title("Volatilidad del tipo de cambio pronosticado")
 st.write("Autor: Rolando Guerrero - Grupo 04 | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA.")
 # URLs de imágenes en GitHub
